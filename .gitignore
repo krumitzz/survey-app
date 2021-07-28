@@ -165,4 +165,4 @@ node_modules
 
 # Local History for Visual Studio Code
 .history/
-secret.json
+secrets.json
