@@ -8,7 +8,15 @@ select {
 }
 
 input[type='button'] {
-    
+    background-color: blue;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: italics;
+    font-size: 18px;
+    border-radius: 12px;
+    margin: 4px 2px;
 }
 
 
@@ -42,13 +50,15 @@ body {
 .form-div {
     width: 100%;
     margin: .5rem 0rem;
-}
+   }
 
 .form-control {
     width: 100%;
     padding: 5px 1px;
-    border: 2px solid blue;
-    box-shadow: 5px 10pc #add8e6;
+    border: 2px solid blue ;
+    box-shadow: 5px ;
+    padding: 15px;
+
 }
 
 

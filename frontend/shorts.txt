@@ -27,3 +27,6 @@ you need to;
          cuz that's not working at the moment
     
     Think of cards or google form cards ("-") 
+
+    styled the button. For some reason i cant scroll and see what the buttle looks like completely bug again tchew
+    i'm seeing only half of it
