@@ -1,2 +1,7 @@
 Task:
     1 -> Create forms skeletin in user_form_template.hmtl file
+
+    what i created was it not forms skeleton?
+
+    i dont get, user_form_template & user_form_template(index) have the same hmtl content or i did something wrong?
+     bc i'm niot seeing the changes 
