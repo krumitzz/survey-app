@@ -1,14 +1,2 @@
-1 -> make a folder called templates will be for all the htmls
-2 -> make another called static will be for all static files
-3 -> make another folder called template-layouts inside /templates/
-
-4 -> make an html file called base or index and make simple html home page for a survey app
-
-5 -> make a folder called static
-6 -> inside static create three folders (css, js, images)
-7 -> python installation https://www.python.org/downloads/release/python-389/
-
-key takeways
-    build a simple embedded webpage within a folder.
-    know how link html to css files.
-    get comfortable making folders and files in vscode.
+Task:
+    1 -> Create forms skeletin in user_form_template.hmtl file
