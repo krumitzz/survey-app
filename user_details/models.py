@@ -16,7 +16,7 @@ class UserDetails(models.Model):
     full_name = models.CharField('Full Name', max_length=100)
     age = models.IntegerField(blank=True)
     dob = models.DateField('Date Of Birth')
-    school = models.CharField(max_length=250)
+    school_or_inst = models.CharField('School or Institution',max_length=250)
     gender = models.CharField(max_length=1, choices=GENDER_CHOICE, default=GENDER_CHOICE[2])
 
     department_discipline = models.CharField('Department/Discipline', max_length=250)

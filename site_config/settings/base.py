@@ -32,7 +32,7 @@ INSTALLED_APPS = [
     ## Own Apps
     'user_details.apps.UserDetailsConfig',
     'questions.apps.QuestionsConfig',
-    'answers.apps.AnswersConfig',
+    'response_fields.apps.ResponseFieldsConfig',
     'surveys.apps.SurveysConfig',
 
     # frontend application
