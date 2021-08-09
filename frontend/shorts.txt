@@ -6,3 +6,4 @@
 
 5 -> make a folder called static
 6 -> inside static create three folders (css, js, images)
+7 -> python installation https://www.python.org/downloads/release/python-389/
