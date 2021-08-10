@@ -7,3 +7,8 @@
 5 -> make a folder called static
 6 -> inside static create three folders (css, js, images)
 7 -> python installation https://www.python.org/downloads/release/python-389/
+
+key takeways
+    build a simple embedded webpage within a folder.
+    know how link html to css files.
+    get comfortable making folders and files in vscode.
