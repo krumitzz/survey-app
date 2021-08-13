@@ -1,2 +1,12 @@
 Task:
-    1 -> Create forms skeletin in user_form_template.hmtl file
+    1 -> Responsiveness is done, start designing form look
+    2 -> adjust font size and font
+    3 -> add colors, border color just design
+    4 -> try making the form(.user-survey) look like a card (it should have a border and maybe a shadow) 
+
+    Key takeaways: know how to make cards and design stunning forms
+
+    5 -> if you managed that, make a sign up and login page using the same techinque
+            to make your card responsive and fit a 360px mobile screen completely
+
+                            Happy Hacking (0_0)
