@@ -1,4 +1,9 @@
 Task:
+<<<<<<< HEAD
+    1 -> Create forms skeletin in user_form_template.hmtl file
+
+    what i created was it not forms skeleton?
+
     1 -> Responsiveness is done, start designing form look
     2 -> adjust font size and font
     3 -> add colors, border color just design
@@ -10,3 +15,5 @@ Task:
             to make your card responsive and fit a 360px mobile screen completely
 
                             Happy Hacking (0_0)
+check the styling first.
+theres no div user survery in my code & am i supposed to pull from amidbidee or from modeskutemi survery app?

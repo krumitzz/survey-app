@@ -18,6 +18,8 @@ body {
     height: 100%;
     overflow-y: hidden;
     font: 1rem sans-serif;
+    background-color: #add8e6;
+    font-size: 20px;
 
 }
 
@@ -27,6 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .user-survey {
@@ -34,6 +37,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 360px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .form-div {
@@ -44,7 +48,10 @@ body {
 .form-control {
     width: 100%;
     padding: 5px 1px;
+    border: 2px solid blue;
+    box-shadow: 5px 10pc #add8e6;
 }
+
 
 
 @media only screen and (max-width: 360px) {
