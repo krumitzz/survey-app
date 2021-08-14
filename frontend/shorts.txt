@@ -17,3 +17,13 @@ Task:
                             Happy Hacking (0_0)
 check the styling first.
 theres no div user survery in my code & am i supposed to pull from amidbidee or from modeskutemi survery app?
+
+have fixed the bug...
+
+you need to;
+    1 -> adding padding to the .user-survey
+    2 -> add padding to .form-control(input)
+    3 -> remove the box shadow from .form-input or make look okay,
+         cuz that's not working at the moment
+    
+    Think of cards or google form cards ("-") 
