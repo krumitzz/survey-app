@@ -1,35 +1,38 @@
-Task:
-<<<<<<< HEAD
-    1 -> Create forms skeletin in user_form_template.hmtl file
+Hey! You... ///|\\\ Now we need to make two important
+forms;
 
-    what i created was it not forms skeleton?
+1 -> Sign Up Form
+2 -> Login Form 
 
-    1 -> Responsiveness is done, start designing form look
-    2 -> adjust font size and font
-    3 -> add colors, border color just design
-    4 -> try making the form(.user-survey) look like a card (it should have a border and maybe a shadow) 
+Tip: 
+    read and follow the static.css
+    to make your card responsive and fit a 360px 
+    mobile screen completely
 
-    Key takeaways: know how to make cards and design stunning forms
+    format --> 
+                           LOGIN
+                [  email                    ] 
+                [  [                     ]  ]
+                [                           ]
+                [  password                 ]
+                [  [                     ]  ]
+                [                           ]
+                [        Not A Member?      ]
+                [          Register         ]
 
-    5 -> if you managed that, make a sign up and login page using the same techinque
-            to make your card responsive and fit a 360px mobile screen completely
 
-                            Happy Hacking (0_0)
-check the styling first.
-theres no div user survery in my code & am i supposed to pull from amidbidee or from modeskutemi survery app?
+                           REGISTER
+                [  email                    ] 
+                [  [                     ]  ]
+                [                           ]
+                [  password                 ]
+                [  [                     ]  ]
+                [                           ]
+                [    Already A Member?      ]
+                [          Login            ]
 
-have fixed the bug...
 
-you need to;
-    1 -> adding padding to the .user-survey
-    2 -> add padding to .form-control(input)
-    3 -> remove the box shadow from .form-input or make look okay,
-         cuz that's not working at the moment
-    
-    Think of cards or google form cards ("-") 
-
-    styled the button. For some reason i cant scroll and see what the buttle looks like completely bug again tchew
-    i'm seeing only half of it
-
+                            
+                        Happy Hacking (-_0)
 
     hii came on here for a bit 
