@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
 
     ## Own Apps
     'user_details.apps.UserDetailsConfig',
@@ -41,10 +42,28 @@ INSTALLED_APPS = [
     # authentication application
     'authentication.apps.AuthenticationConfig',
 
+    # allauth
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    ## social providers
+    'allauth.socialaccount.providers.google'
 
 ]
 
 AUTH_USER_MODEL = 'authentication.User'
+
+SITE_ID = 1
+# PROVIDER SPECIFIC SETTINGS
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'APP': {
+            'client_id': '1234',
+            'secret': '456',
+            'key': ''
+        }
+    }
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -130,3 +149,9 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# USER MODEL CUSTOM FIELDS
+ACCOUNT_USER_MODEL_USERNAME_FIELD = None
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
