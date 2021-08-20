@@ -40,4 +40,14 @@ Tip:
     -----------------------------
 
     I noticed, nice design on the form by the way...
-    saved me the thought
+    saved me the thought 
+
+    hiiiiii
+    i'll write this new code in in base.html i guess
+    orr i'll just make another
+
+    -------------------------------------
+
+    opened a new file inside template folder "login.html" made login only but w/o any css. Pls review
+     gonna be busy tomorrow going to do my nails xx
+     was thinking of using the other stying for thus one too what do you think?
