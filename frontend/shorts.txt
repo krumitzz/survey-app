@@ -17,9 +17,11 @@ Tip:
                 [  password                 ]
                 [  [                     ]  ]
                 [                           ]
+                [          [Login]          ]
                 [        Not A Member?      ]
                 [          Register         ]
 
+                 [- OR Login With Google  -]    <---- Google button(red)
 
                            REGISTER
                 [  email                    ] 
@@ -27,7 +29,7 @@ Tip:
                 [                           ]
                 [  password                 ]
                 [  [                     ]  ]
-                [                           ]
+                [        [Sign Up]                   ]
                 [    Already A Member?      ]
                 [          Login            ]
 
@@ -51,3 +53,17 @@ Tip:
     opened a new file inside template folder "login.html" made login only but w/o any css. Pls review
      gonna be busy tomorrow going to do my nails xx
      was thinking of using the other stying for thus one too what do you think?
+
+     -------------------------------------------
+
+     oh that's why...
+     nails hmm! how do you even type with it...
+     lol the little seff is bugging me... 
+     
+     No write another style for them it's good excercise (*-*)...
+     you forgot to add a form layer --> 
+                                    <form action='' method='' class='class-name'>
+                                    </form>
+
+    
+    PS: We have to get this done by sunday!! So we can start the store ASAP...
