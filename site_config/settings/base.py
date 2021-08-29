@@ -3,6 +3,9 @@ from pathlib import Path
 
 from .secrets import get_secrets
 
+from pathlib import Path
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -32,9 +35,6 @@ INSTALLED_APPS = [
 
     ## Own Apps
     'user_details.apps.UserDetailsConfig',
-    'questions.apps.QuestionsConfig',
-    'response_fields.apps.ResponseFieldsConfig',
-    'surveys.apps.SurveysConfig',
 
     # frontend application
     'frontend.apps.FrontendConfig',
@@ -47,11 +47,8 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     ## social providers
-    'allauth.socialaccount.providers.google'
-
+    'allauth.socialaccount.providers.google',
 ]
-
-AUTH_USER_MODEL = 'authentication.User'
 
 SITE_ID = 1
 # PROVIDER SPECIFIC SETTINGS
@@ -64,6 +61,36 @@ SOCIALACCOUNT_PROVIDERS = {
         }
     }
 }
+
+AUTH_USER_MODEL = 'authentication.User'
+
+### Survey Library
+
+CSV_DIRECTORY = Path('results/csv')
+TEX_DIRECTORY = Path('results/tex')
+
+INSTALLED_APPS += [
+    'bootstrapform',
+    'survey'
+]
+
+# Permit to open the csv in excel without problem with separator
+# Using this trick : https://superuser.com/a/686415/567417
+EXCEL_COMPATIBLE_CSV = True
+
+# The separator for questions (Default to ",")
+CHOICES_SEPARATOR = "|"
+
+# What is shown in export when the user do not answer (Default to "Left blank")
+USER_DID_NOT_ANSWER = "NAA"
+
+# Path to the Tex configuration file (default to an internal file that should be sufficient)
+from pathlib import Path
+TEX_CONFIGURATION_FILE = Path("tex", "tex.conf")
+
+# Default color for exported pdf pie (default to "red!50")
+SURVEY_DEFAULT_PIE_COLOR = "blue!50"
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

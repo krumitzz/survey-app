@@ -1,25 +1,29 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>survey app</title>
+
+    <link rel='stylesheet' href="{% static 'css/base.css' %}" />
 </head>
 <body>
-    <h1>Welcome To This Survey</h1>
-    <p>This survey is completely anonymous</p>
-
     {% block header %}
-    
+
+        {% block h_content %}
+            for dynamic contents in the header
+        {% endblock h_content %}
+
     {% endblock header %}
 
-    {% block content %}
+    {% block survey %}
 
-    {% endblock content %}
+    {% endblock %}
 
     {% block footer %}
-
+    
     {% endblock footer %}
 </body>
 </html>

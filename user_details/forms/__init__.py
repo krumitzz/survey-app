@@ -1,1 +1,1 @@
-from .user_details_form import UserDetailsForm
+from .user_survey_form import UserSurveyForm
